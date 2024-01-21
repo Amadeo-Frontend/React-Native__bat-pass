@@ -26,6 +26,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'column',
   },
+  buttonContainer: {
+    width: '80%',
+    alignItems: 'center',
+    flexDirection: 'column',
+    shadowRadius: 1,
+    marginTop: 16,
+    marginBottom: 16,
+  },
 });
 
 export default styles;
