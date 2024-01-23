@@ -1,7 +1,9 @@
 # Gerador de Senhas BatPass
 
- <img align="center" alt="Amadeo-ReactJs" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react-native&logoColor=61DAFB">
-  <img align="center" alt="Amadeo-TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+<div align="center"> 
+<img  alt="Amadeo-React-native" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react_native&logoColor=61DAFB">
+<img  alt="Amadeo-TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+</div>
 
 ## Descrição
 
