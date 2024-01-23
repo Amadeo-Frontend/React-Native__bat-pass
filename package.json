@@ -10,10 +10,15 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@react-native-clipboard/clipboard": "^1.13.2",
+    "@react-native-community/clipboard": "^1.5.1",
     "expo": "~49.0.15",
+    "expo-clipboard": "~4.3.1",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-is": "^18.2.0",
+    "react-native": "0.72.6",
+    "react-native-toast-message": "^2.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -21,18 +21,18 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     backgroundColor: '#4d4d4d',
   },
-  inputContainer: {
-    width: '80%',
-    alignItems: 'center',
-    flexDirection: 'column',
-  },
   buttonContainer: {
     width: '80%',
     alignItems: 'center',
     flexDirection: 'column',
     shadowRadius: 1,
-    marginTop: 16,
-    marginBottom: 16,
+  },
+  textStyle: {
+    fontSize: 25,
+    fontWeight: 'bold',
+    color: '#e5bf3c',
+    textAlign: 'center',
+    justifyContent: 'center',
   },
 });
 

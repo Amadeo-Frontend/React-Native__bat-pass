@@ -1,19 +1,22 @@
-import { View } from 'react-native';
-import React from 'react';
+import React, { useState } from 'react';
+import { View, Text } from 'react-native';
 import styles from './Styles';
 import { StatusBar } from 'expo-status-bar';
 import { BatLogo } from '../../components/BatLogo';
-import { Input } from '../../components/Input';
 import { Buttons } from '../../components/Buttons';
 
 export default function Home() {
+  const [key, setKey] = useState(0);
+
+  const resetApp = () => {
+    setKey((prevKey) => prevKey + 1);
+  };
+
   return (
-    <View style={styles.appContainer}>
+    <View style={styles.appContainer} key={key}>
       <View style={styles.logoContainer}>
-        <BatLogo />
-      </View>
-      <View style={styles.inputContainer}>
-        <Input />
+        <Text style={styles.textStyle}>BAT PASS GENERATOR</Text>
+        <BatLogo onPress={resetApp} />
       </View>
       <View style={styles.buttonContainer}>
         <Buttons />

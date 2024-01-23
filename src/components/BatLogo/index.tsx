@@ -1,12 +1,14 @@
 import React from 'react';
-import { View, Image, Text } from 'react-native';
-import { styles } from './styles';
+import { Image, TouchableOpacity } from 'react-native';
 import batLogo from '../../../assets/img/bat-logo.png';
 
-export function BatLogo() {
+interface BatLogoProps {
+  onPress: () => void;
+}
+
+export function BatLogo({ onPress }: BatLogoProps) {
   return (
-    <View style={styles.container}>
-      <Text style={styles.textStyle}>BAT PASS GENERATOR</Text>
+    <TouchableOpacity onPress={onPress}>
       <Image
         source={batLogo}
         style={{
@@ -14,6 +16,6 @@ export function BatLogo() {
           height: 180,
         }}
       />
-    </View>
+    </TouchableOpacity>
   );
 }
